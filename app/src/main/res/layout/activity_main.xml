@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/jetlogo" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/hammersmith_one"
+        android:text="Order now"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/prime"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/prime" />
+
+            <ImageView
+                android:id="@+id/drpepper"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/drpepper" />
+
+            <ImageView
+                android:id="@+id/cucumber"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/cucumber"/>
+
+            <ImageView
+                android:id="@+id/arizona"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/arizona" />
+
+            <ImageView
+                android:id="@+id/barr"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/barr" />
+
+            <ImageView
+                android:id="@+id/fanta"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/fanta" />
+
+            <ImageView
+                android:id="@+id/lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/warheads" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
